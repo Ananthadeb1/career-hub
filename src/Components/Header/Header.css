@@ -1,0 +1,15 @@
+.head-sec{
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.Head-item{
+    margin: 20px;
+    color: #757575;
+}
+.btn-style{
+    padding: 0px 20px  ;
+    border-radius: 8px;
+    background-color:  #7E90FE ;
+    color: #FFFFFF;
+}
