@@ -2,11 +2,12 @@ import { Link, useLoaderData } from "react-router-dom";
 import "../Statistics/Statistics.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faBrain, faFileInvoiceDollar, faLightbulb, faMoneyBill } from "@fortawesome/free-solid-svg-icons";
+import FeaturedJobs from "../FeaturedJobs/FeaturedJobs";
 
 const Statistics = () => {
 
     let data = useLoaderData();
-    console.log(data);
+    // console.log(data);
   return (
     <div>
       <div className="top-banner">
@@ -67,6 +68,11 @@ const Statistics = () => {
         <div className="sec-info">
             <h2>Featured Jobs</h2>
             <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
+            <div className="f-jobs">
+                { data.map(company=><FeaturedJobs className="full-width" 
+                key={company.id}
+                company={company}></FeaturedJobs>)}
+            </div>
         </div>
       </div>
     </div>
