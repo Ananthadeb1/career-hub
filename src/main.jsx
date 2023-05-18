@@ -9,6 +9,7 @@ import Home from './Components/Home/Home';
 import Blog from './Components/Blog/Blog';
 import AppliedJobs from './Components/AppliedJobs/AppliedJobs';
 import Statistics from './Components/Statistics/Statistics';
+import JobDetails from './Components/JobDetails/JobDetails';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path:"/blog",
         element:<Blog></Blog>
+      },
+      {
+        path:"/jobDetails",
+        element:<JobDetails></JobDetails>
       }
     ]
   },

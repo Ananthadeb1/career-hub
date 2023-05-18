@@ -16,3 +16,6 @@
     color: #FFFFFF;
     cursor: pointer;
 }
+.btn-style :hover{
+    color: black;
+}

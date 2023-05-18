@@ -2,7 +2,34 @@
   width: 115px;
   height: 40px;
 }
+.featured-info p{
+    color: #757575;
+}
 .feature-sec {
     border: 1px solid #e8e8e8;
     border-radius: 8px; 
 }
+.featured-info{
+    padding: 40px;
+}
+.work-sec{
+    display: flex;
+}
+.work-sec p{
+    border: 2px solid #7E90FE;
+    border-radius: 5px;
+    margin-right: 15px;
+    padding: 10px;
+    font-weight: 800;
+    font-size: 16px;
+    color: #7E90FE;
+}
+.job-loc{
+    display: flex;
+}
+.job-loc p{
+    margin-right: 25px;
+    color: #757575;
+    margin-bottom: 25px;
+}
+

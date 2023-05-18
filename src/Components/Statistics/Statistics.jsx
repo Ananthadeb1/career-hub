@@ -75,6 +75,7 @@ const Statistics = () => {
             </div>
         </div>
       </div>
+      <span className="btn-style" >See More</span>
     </div>
   );
 };
