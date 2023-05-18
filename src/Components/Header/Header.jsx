@@ -6,11 +6,11 @@ const Header = () => {
         <div className="head-sec">
             <h4>Cakri Bakri</h4>
             <div >
-            <Link className="Head-item" to={"/"}>Statistics</Link>
-            <Link className="Head-item" to={"/appliedJobs"}>Applied Jobs</Link>
-            <Link className="Head-item" to={"/blog"}>Blog</Link>
+            <Link className="Head-item" to="/">Statistics</Link>
+            <Link className="Head-item" to="/appliedJobs">Applied Jobs</Link>
+            <Link className="Head-item" to="/blog">Blog</Link>
             </div>
-            <Link className="btn-style" to={"/apply"}><p>Start Applying</p></Link>
+            <Link  to="/apply"><p className="btn-style">Start Applying</p></Link>
         </div>
     );
 };

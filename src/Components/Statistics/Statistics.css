@@ -1,0 +1,55 @@
+.top-banner{
+    margin-top: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 20px;
+   background-color: #FAFBFD;
+}
+.banner-info{
+    width: 50%;
+}
+.banner-info h2{
+    font-size: 800;
+    line-height: 100px;
+}
+.top-banner img{
+    width: 815px;
+}
+.special-text{
+    color: #7E90FE;
+}
+/* job categary section start s */
+.category-sec{
+    margin-top: 80px;
+}
+.sec-info{
+    display: grid;
+    justify-items: center;
+    margin-bottom: 30px;
+}
+.cate-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.cards{
+    background-color: #F5F2FF;
+    border-radius: 8px;
+    padding: 40px 40px 0 40px;
+    
+}
+.cate-icon{
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+    border-radius: 8px;
+    color: #7E90FE;
+    background-color: #9ba5e48c ;
+}
+
+/* featers section starts */
+
+.features-sec{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
