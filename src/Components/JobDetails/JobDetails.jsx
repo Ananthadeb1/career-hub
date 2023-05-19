@@ -2,6 +2,10 @@ import { Link } from "react-router-dom";
 import { singleData } from "../FeaturedJobs/FeaturedJobs";
 import "../JobDetails/JobDetails.css";
 
+let Data=[];
+const handleAppliedData= ()=>{
+  Data.push(singleData);
+}
 const JobDetails = () => {
   return (
     <div>
@@ -49,7 +53,7 @@ const JobDetails = () => {
               {singleData.address}
             </p>
             </div>
-            <Link className="details-btn" to="/appliedJobs">Apply Now</Link>
+            <Link className="details-btn" onClick={handleAppliedData} to="/appliedJobs">Apply Now</Link>
           </div>
         </div>
       </div>
@@ -58,3 +62,4 @@ const JobDetails = () => {
 };
 
 export default JobDetails;
+export {Data};

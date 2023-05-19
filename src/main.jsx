@@ -10,6 +10,7 @@ import Blog from './Components/Blog/Blog';
 import AppliedJobs from './Components/AppliedJobs/AppliedJobs';
 import Statistics from './Components/Statistics/Statistics';
 import JobDetails from './Components/JobDetails/JobDetails';
+import MainHome from './Components/MainHome/MainHome';
 
 const router = createBrowserRouter([
   {
@@ -18,8 +19,12 @@ const router = createBrowserRouter([
     children:[
       {
         path:"/",
-        element: <Statistics></Statistics>,
+        element: <MainHome></MainHome>,
         loader: () => fetch('fakeData.json')
+      },
+      {
+        path:"/Statistics",
+        element:<Statistics></Statistics>
       },
       {
         path:"/appliedJobs",

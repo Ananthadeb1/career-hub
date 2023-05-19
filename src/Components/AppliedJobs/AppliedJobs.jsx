@@ -1,14 +1,18 @@
-import { singleData } from "../FeaturedJobs/FeaturedJobs";
-import  { useEffect, useState } from 'react';
-import { addToDb,getFromDb } from "../Utilits/fakedb";
-import { data } from "../Statistics/Statistics";
+import AppliData from "../AppliData/AppliData";
+import { Data } from "../JobDetails/JobDetails";
 
 
 const AppliedJobs = () => {
+    // console.log(Data)
+    // addToDb(singleData.id);
+    // const storedData = getFromDb();
+    // console.log(storedData)
+    // data.map(com=>{
+    //     if(storedData.id ===com.id) console.log("mili gese",storedData.id)})
     
     return (
-        <div>
-            <h1>This is appliedJobs</h1>
+        <div>      
+             <h1>this is applied jobs</h1>
         </div>
     );
 };
