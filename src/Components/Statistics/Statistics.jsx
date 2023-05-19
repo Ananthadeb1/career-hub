@@ -3,10 +3,11 @@ import "../Statistics/Statistics.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faBrain, faFileInvoiceDollar, faLightbulb, faMoneyBill } from "@fortawesome/free-solid-svg-icons";
 import FeaturedJobs from "../FeaturedJobs/FeaturedJobs";
-
+let data;
 const Statistics = () => {
+  console.log("dataType from statistics ", typeof(data))
 
-    let data = useLoaderData();
+   data = useLoaderData();
     // console.log(data);
   return (
     <div>
@@ -81,3 +82,4 @@ const Statistics = () => {
 };
 
 export default Statistics;
+export {data};

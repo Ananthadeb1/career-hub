@@ -4,6 +4,7 @@ import "../FeaturedJobs/FeaturedJobs.css"
 
 let singleData={};
 const FeaturedJobs = (company) => {
+    
 
     const {name,position,location,salary,logo,jobType,workLocation} =company.company;
     
